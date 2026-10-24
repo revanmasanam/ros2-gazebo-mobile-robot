@@ -1,0 +1,23 @@
+# ROS 2 / colcon workspace artifacts
+build/
+install/
+log/
+.colcon/
+
+# ROS bags and generated data
+rosbag2_*/
+*.bag
+*.db3
+*.mcap
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+
+# Editors and operating-system files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
